@@ -1,0 +1,81 @@
+/* Este stylesheet trabalha o estilo do questionário */
+h1 {
+	display: flex;
+	flex-direction: column;
+}
+
+#questao {
+	font-size: 20px; 
+	color: #fff;
+	justify-content: center;
+}
+
+.respostas {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+}
+
+.respostas button { 
+	background-color: #b31217;
+	color: #fff;
+	border: 0.1em solid #fff;
+	font-size: 20px;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px;
+	position: relative;
+	display: inline-block;
+	border-radius:30px;
+
+	box-sizing: border-box;
+	font-weight: 600;
+	transition: all 0.2s;
+}
+
+.respostas button:hover {
+	color: #b31217;
+	background-color: #fff;
+}
+
+.resultado {
+	display: flex;
+	justify-content: center;
+}
+
+#pontuacao {
+	display: flex;
+	justify-content: center;
+	padding: 100px 0px 0px 0px;
+
+	color: rgba(1, 255, 35, 0.5);
+	text-align: center;
+	font-size: 30px;
+	min-width: 600px;
+}
+
+#voltar {
+	max-width: 600px;
+	background-color: #b31217;
+	color: #fff;
+	border: 0.1em solid #fff;
+	font-size: 20px;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px;
+	position: relative;
+	display: inline-block;
+	border-radius:30px;
+
+	box-sizing: border-box;
+	font-weight: 600;
+	transition: all 0.2s;
+}
+
+#voltar:hover {
+	color: #b31217;
+	background-color: #fff;
+}
+
+#progresso {
+	color: #fff;
+	font-size: 18px;
+}
