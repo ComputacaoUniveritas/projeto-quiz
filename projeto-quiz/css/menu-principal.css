@@ -1,0 +1,40 @@
+.conteudo {
+    align-items: center;
+    min-width: 100px;
+    max-width: 700;
+    padding-bottom: 40px;
+}
+
+.menu-principal {
+    min-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-principal h2, h3 {
+    color: #fff;
+    padding: 15px 0px;
+    margin: 0;
+    padding-bottom: 20px;
+    /* font-size: 2em; */
+}
+
+.menu-principal nav {
+    display: inline-block;
+    background-color: #b31217;
+}
+
+.menu-principal a {
+	display: block;
+    padding: 11px 10px;
+	text-decoration: none;
+	color: #fff;
+    border: 0.5px solid #fff;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.menu-principal a:hover {
+	color: #b31217;
+	background-color: #fff;
+}
